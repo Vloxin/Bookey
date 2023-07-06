@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:src="@drawable/bookey_logo" />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            style="@style/EditTextField_Register"
+            android:hint="@string/first_name" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            style="@style/EditTextField_Register"
+            android:hint="@string/last_name" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            style="@style/EditTextField_Register"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            style="@style/EditTextField_Register"
+            android:hint="@string/username_register" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            style="@style/EditTextField_Register"
+            android:hint="@string/password_register"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            style="@style/EditTextField_Register"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFFF00"
+            android:text="@string/register"
+            android:textColor="#5C6BC0" />
+
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="@string/register_buttom_text"
+            android:textColor="#00BCD4" />
+
+    </LinearLayout>
+</RelativeLayout>

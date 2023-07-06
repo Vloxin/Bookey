@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/arraivaldate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_border"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/admin_room_item_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        app:srcCompat="@drawable/placeholder_image" />
+
+    <TextView
+        android:id="@+id/roomNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/RoomText" />
+
+    <TextView
+        android:id="@+id/reservedBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/RoomText" />
+
+    <TextView
+        android:id="@+id/departerdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/RoomText" />
+
+    <TextView
+        android:id="@+id/arrivaldate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/RoomText" />
+
+    <TextView
+        android:id="@+id/pricePerNightTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/RoomText" />
+
+    <TextView
+        android:id="@+id/typeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+
+
+    <!-- Add additional views as needed to display room details -->
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "560327997410",
+    "project_id": "bookey-8dba5",
+    "storage_bucket": "bookey-8dba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560327997410:android:45b9ff61f31a1208e52bbb",
+        "android_client_info": {
+          "package_name": "com.example.bookey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560327997410-5nk22h2kj514fd46qg2jvjve7edd0o8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpQeUaP2qSONJzr6qY1CoNMWxHQzUJs-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560327997410-5nk22h2kj514fd46qg2jvjve7edd0o8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

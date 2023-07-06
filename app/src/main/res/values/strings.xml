@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Bookey</string>
+    <string name="settings">Settings</string>
+    <string name="key">Orders</string>
+    <string name="booking">Booking</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="username">Username</string>
+    <string name="RegisterText">Dont have an account?, Register here!</string>
+    <string name="login">Login</string>
+    <string name="first_name_text">First Name</string>
+    <string name="last_name_text">Last Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="textview">TextView</string>
+
+    <string name="register_button">Register</string>
+    <string name="register_buttom_text">Already have an account? Login</string>
+    <string name="register">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_register">Password</string>
+    <string name="username_register">Username</string>
+    <string name="first_name">First Name</string>
+    <string name="title_activity_reset_password">ResetPassword</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="title_activity_main">Bookey</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="email_box">Email</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="email">Email</string>
+    <string name="logout_button_text">logout</string>
+    <string name="version_text">
+    Version: %1$s\n
+        \n
+    Build: %2$s\n
+        \n
+    Date: %2$s\n
+        \n
+    SHA: %3$s\n
+        \n
+    SUPPORTED_ABI: %4$s
+</string>
+    <string name="add_room">Add Room</string>
+</resources>

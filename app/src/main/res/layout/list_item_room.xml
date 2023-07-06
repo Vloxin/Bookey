@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/layout_border">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/roomImg"
+            android:layout_width="138dp"
+            android:layout_height="151dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+            <TextView
+                android:id="@+id/tv_room_type"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_room_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/RoomText" />
+
+            <TextView
+                android:id="@+id/tv_price_per_night"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/RoomText" />
+
+            <TextView
+                android:id="@+id/tv_arrival"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/RoomText"/>
+
+            <TextView
+                android:id="@+id/tv_dep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/RoomText"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_key"
+        android:icon="@drawable/ic_key"
+        android:title="@string/key" />
+    <item
+        android:id="@+id/action_booking"
+        android:icon="@drawable/ic_booking"
+        android:title="@string/booking" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+</menu>

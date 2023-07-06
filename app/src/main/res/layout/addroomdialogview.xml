@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Room Number -->
+    <EditText
+        android:id="@+id/roomNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Room Number"
+        style="@style/EditTextField_Login"
+        android:textColor="@color/black"
+
+        />
+
+    <!-- Room Type -->
+    <EditText
+        android:id="@+id/roomTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Type"
+        style="@style/EditTextField_Login"
+        android:textColor="@color/black"/>
+
+    <!-- Room Price -->
+    <EditText
+        android:id="@+id/roomPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Price per Night"
+
+        style="@style/EditTextField_Login"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/uploadImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Image" />
+
+        <ImageView
+            android:id="@+id/roomImageView"
+            android:layout_width="match_parent"
+            android:layout_height="163dp"
+
+            android:src="@drawable/placeholder_image" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

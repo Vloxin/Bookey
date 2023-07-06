@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:src="@drawable/bookey_logo"
+            android:importantForAccessibility="no" />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:hint="@string/username"
+            style="@style/EditTextField_Login" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:hint="@string/password"
+            style="@style/EditTextField_Login"
+            android:inputType="textPassword" /><![CDATA[
+            />
+
+
+        ]]>
+
+        <TextView
+            android:id="@+id/textViewRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/RegisterText"
+            android:textColor="#00BCD4" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Button"
+
+
+            android:text="@string/login"
+             />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+
